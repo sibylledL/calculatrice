@@ -1,0 +1,97 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#calcul{
+  position:absolute;
+  top:100px;
+display: flex;
+height: 300px;
+width: 320px;
+padding:10px;
+background-color: grey;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#affiche{
+  width: 82%;
+  height: 30px;
+}
+.entree{
+  margin: 20px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.num{
+  margin: 2px;
+  height:50px;
+  width:50px;
+  background-color: white;
+
+  border-radius: 4px;
+  vertical-align: center;
+}
+
+.operation{
+  display: flex;
+  flex-direction: row;
+  width:85%;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.numb{
+  height:60px;
+  width:60px;
+  background-color: white;
+  border-radius: 4px;
+  margin: 2px;
+}
+.numc{
+  height:40px;
+  width:40px;
+  background-color: white;
+  border-radius: 4px;
+  margin: 2px;
+}
+
+#result{
+  height:40px;
+  width:40px;
+  background-color:;
+  border-radius: 4px;
+  margin: 2px;
+}
+.res{
+  margin:5px;
+padding:5px;
+
+}
+span{
+  background-color: red;
+  padding:10px 25px;
+}
+
+span:hover{
+  background-color: black;
+  color:white;
+}
+
+#reset{
+  height:32px;
+  width:48px;
+  background-color: #80bfff;
+  padding-top:15px;
+  text-align: center;
+}
+#reset:hover{
+  background-color: #0059b3;
+  color:white;
+}
